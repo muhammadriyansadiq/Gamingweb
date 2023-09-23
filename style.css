@@ -1,0 +1,429 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  height: 60px;
+  /* max-width: 100%; */
+  /* position: relative; */
+}
+.left {
+  display: flex;
+}
+.linking{
+text-decoration: none; 
+color: goldenrod;
+}
+.center {
+  display: flex;
+  margin-left: 10px;
+}
+.right {
+  display: flex;
+}
+.one {
+  margin-left: 19px;
+  
+}
+.homeexpander{
+  margin-top: 16px;
+}
+.humbergline {
+  width: 46px;
+  height: 2px;
+  background-color:  rgb(226, 212, 11);;
+  margin: 9px 0px;
+}
+#humbergstyle {
+  border: 2px solid rgb(226, 212, 11);
+  border-radius: 5px;
+  position: absolute;
+  right: 4px;
+  top: 6px;
+}
+.humberg {
+  display: none;
+}
+#humbergerexpander {
+ z-index: 1;
+  background-color: black ;
+  border-radius: 2% 98% 0% 100% / 0% 0% 100% 100% ;
+  display: none ;
+  position: absolute ;
+  top: 0px ;
+  right: 0px ;
+
+}
+.myClass{
+    display: block !important;
+    display: flex !important;
+    justify-content: space-around;
+    flex-direction: column ;
+    align-items: flex-end ;
+    height: 390px ;
+  width: 300px; 
+}
+.humbergerexpanderitems {
+  color: goldenrod;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+#humbergclose {
+  width: 49px;
+  position: absolute;
+  right: 169px;
+  top: 98px;
+  height: 29px;
+z-index: 1;
+}
+.Community{
+  text-align: center;
+  color: rgb(226, 212, 11);
+  /* margin-top: 5px; */
+  line-height: 50px;
+}
+.pictures{
+  background-color: rgb(34, 34, 34); ;
+  /* height: 590px; */
+}
+.crossadd{
+  display: block !important;
+}
+.nav {
+  position: relative;
+}
+
+
+
+.logogaming{
+  height: 50px;
+  
+    width: 50px;
+}
+.headingthree{
+  font-size: 39px;
+  color: goldenrod;
+  font-weight: bolder;
+}
+.parathree{
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+.headingsecond{
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(197, 6, 6);
+}
+.parasecond{
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(20, 241, 5);
+}
+.heading{
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+.para{
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(221, 34, 9);
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 5px 1px 8px 10px rgb(247, 177, 1);
+  /* background-color: aqua; */
+}
+.card-body:hover{
+  background-color: rgb(116, 116, 113) !important;
+}
+
+.slidingimgtwo{
+  height:349px;
+  width: 100%;
+}
+.slidingimgthree{
+  height:349px;
+}
+.slidingimgone{
+  height:349px;
+
+}
+.card-title{
+  text-align: center;
+}
+.card-text{
+  text-align: center;
+}
+.addtocart{
+  /* text-align: center; */
+  margin-left: 97px;
+  background-color: grey !important;
+  color: white;
+  font-weight: bolder;
+  border: 2px solid goldenrod !important;
+}
+.addtocart:hover{
+  background-color: goldenrod !important;
+}
+
+.topcard{
+  margin-top: 14px !important;
+  background-color: rgb(0, 0, 0);
+}
+.card-body{
+  background-color: rgb(20, 20, 20) !important;
+  border: 2px solid grey !important;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.card-title{
+  color: rgb(248, 232, 9) !important;
+}
+.card-text{
+  color: rgb(248, 232, 9)  !important;
+}
+body{
+  background-color: rgb(0, 0, 0) !important;
+}
+.fa-star{
+  color: rgb(42, 153, 42);
+}
+.rating{
+  color: rgb(255, 230, 10);
+  text-align: center;
+}
+.emailandname{
+  background-color: rgb(73, 53, 3);
+border: 5px solid white;
+margin: 0px 14px;
+width: 80%;
+}
+.search{
+  height: 90px;
+  width: 100%;
+  margin-top: 13px;
+  color: blue;
+  background-color: rgb(73, 53, 3);
+  border: 5px solid white;
+
+}
+.searchcontainer{
+  margin-top: 15px;
+  /* border: 3px solid yellow; */
+  
+}
+.sendbutton{
+  color: white;
+  background-color: rgb(73, 53, 3);;
+  line-height: 50px;
+  width: 89px;
+border: 5px solid white;
+  text-align: center;
+  margin-left: 130px;
+  margin-top: 14px;
+}
+
+@media(min-width:425px){
+  .card{
+    width: 25rem !important;
+  }
+  .addtocart{
+    margin-left: 135px;
+  }
+}
+
+@media(min-width:768px){
+.container{
+  max-width: 100% !important;  
+}
+.addtocart{
+  font-size: 27px !important;
+  /* text-align: center !important; */
+  margin-left: 90px;
+}
+.footer{
+  margin-top: 19px;
+}
+.slidingimgone{
+  height: 432px;
+}
+.slidingimgtwo{
+  height: 432px;
+}
+.slidingimgthree{
+  height: 432px;
+}
+.heading{
+  font-size: 65px;
+  color:goldenrod
+}
+.para{
+font-size: 30px;
+}
+.headingthree{
+  font-size: 60px;
+}
+.parathree{
+  font-size: 30px;
+}
+.headingsecond{
+  font-size: 60px;
+}
+.parasecond{
+  font-size: 30px;
+}
+.videos{
+  height: 450px;
+}
+.card{
+  width: 23rem !important;
+}
+.Community{
+  font-size: 50px;
+  line-height: 120px;
+  background-color: rgb(26, 25, 25);
+}
+.emailandname{
+  width: 266px;
+  height: 64px;
+  font-size: 24px;
+}
+.search{
+  height: 139px;
+  font-size: 24px;
+}
+.sendbutton{
+  margin-left: 342px;
+}
+.card-img-top{
+  height: 269px;
+}
+.card-title{
+  font-size: 30px;
+}
+.card-text{
+  font-size: 26px;
+}
+.rating{
+  font-size: 30px;
+}
+}
+
+
+
+
+@media (min-width: 992px) {
+.container{
+  max-width: 100% !important;
+}
+.logogaming{
+  height: 90px;
+  width: 119px;
+}
+.footer{
+  margin-top: 24px !important;
+}
+.homeexpander{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 17px;
+}
+.one{
+font-size: 30px;
+font-weight: bolder;
+color: goldenrod;
+}
+.container{
+  height: 100px;
+}
+.slidingimgthree{
+  height: 585px;
+  width: 100%;
+}
+.slidingimgtwo{
+  height: 585px;
+  width: 100%;
+}
+.slidingimgone{
+  height: 585px;
+  width: 100%;
+}
+.card{
+  width: 29rem !important;
+}
+.card-title{
+  font-size: 40px;
+}
+.card-text{
+  font-size: 33px;
+ 
+}
+.rating{
+  font-size: 40px;
+
+}
+.addtocart{
+  font-size: 33px !important;
+  margin-left: 138px;
+}
+.emailandname{
+  height: 100px;
+  width: 335px;
+  font-size: 33px;
+}
+.search{
+  height: 250px;
+  font-size: 33px;
+}
+.sendbutton{
+  margin-left: 454px;
+  height: 73px;
+  width: 106px;
+  font-size: 33px;
+}
+.videos{
+  height: 595px;
+}
+.Community{
+  font-size: 71px;
+  line-height: 125px;
+  background-color: rgb(20, 20, 20);
+}
+.card-img-top{
+  height: 350px;
+}
+}
+
+@media(min-width:1150px){
+.sendbutton{
+  margin-left: 506px;
+}
+.card{
+  width: 34rem !important;
+}
+.footer{
+  margin-top: 30px !important;
+}
+.addtocart{
+  margin-left: 158px;
+}
+}
+
+@media (max-width: 768px) {
+  .expand {
+    display: none;
+  }
+  .humberg {
+    display: block;
+  }
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- ==================hamburger -->
+    <div class="nav">
+      <div class="humberg">
+        <div id="humbergstyle">
+          <p class="humbergline"></p>
+          <p class="humbergline"></p>
+          <p class="humbergline"></p>
+        </div>
+      </div>
+      <!-- ==============nav -->
+      <div class="container">
+        <div class="left expand">
+          <img class="logogaming" src="EVOLVER.png" alt="">
+          <p class="one homeexpander">Home</p>
+        </div>
+        <div class="center expand">
+          <p class="one"><a class="linking" href="#community">Community</a></p>
+          <p class="one"><a class="linking" href="#selling">Trending</a></p>
+        </div>
+        <div class="right expand">
+          <p class="one"><a class="linking" href="#features">Features</a> </p>
+          <p class="one"><a class="linking" href="#Contact"> Contact</a></p>
+        </div>
+      </div>
+      <!-- ==================hamburger expander -->
+      <div id="humbergerexpander" style="display: none" >
+        <img class="logogaming humbergerexpanderitems" src="EVOLVER.png" alt="">
+        <div class="humbergerexpanderitems">Home</div>
+        <div class="humbergerexpanderitems"><a class="linking" href="#community">Community</a></div>
+        <div class="humbergerexpanderitems"><a class="linking" href="#selling">Trending</a></div>
+        <div class="humbergerexpanderitems"><a class="linking" href="#features">Features</a></div>
+        <div class="humbergerexpanderitems"><a class="linking" href="#Contact">Contact</a></div>
+      </div>
+      <button id="humbergclose" style="display: none">&times;</button>
+    </div>
+   <!-- =======================bodycontent===================== -->
+<!-- ========================first page =============== -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img class="slidingimgone" src="https://media.istockphoto.com/id/1161534865/photo/soccer-player-receives-successful-pass-and-kicks-ball-to-score-amazing-goal-doing-bicycle.jpg?s=612x612&w=0&k=20&c=uk75vBt-6JF0_CKCT3bveK0KBY0qaTu9ISGl4k4tRuc=" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-block d-md-block">
+        <h5 class="heading">First slide label</h5>
+        <p class="para">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="slidingimgtwo" src="https://t4.ftcdn.net/jpg/05/65/76/97/240_F_565769722_A9BRPl9Op2Vtv7KNF7QpijNFfGjK3oQp.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-block d-md-block">
+        <h5 class="headingsecond">Second slide label</h5>
+        <p class="parasecond">Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="slidingimgthree" src="https://cdn.pixabay.com/photo/2022/08/09/12/04/fantasy-7374826_640.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-block d-md-block">
+        <h5 class="headingthree">Third slide label</h5>
+        <p class="parathree">Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<picture>
+  <div  class="pictures">
+  <h1 class="Community">Evolver Gamer Community</h1>
+  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/nk0Ze0orvG0?si=HQzfRs8RthV0T6gp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+  <iframe class="videos"  id="community" height="315" src="https://www.youtube.com/embed/nk0Ze0orvG0?autoplay=1&mute=1" width="100%" height="315" frameborder="0"></iframe>
+</div>
+</picture>
+
+
+
+
+<!-- ==========================================Most selling games -->
+
+<h1 class="Community">Most Selling</h1>
+<div class="container-fluid">
+  <div class="row">
+
+
+    <div id="selling" class="topcard col-12 col-md-6">
+      <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+  <img src="https://cdn.pixabay.com/photo/2022/08/20/17/11/fantasy-7399657_640.jpg" class="card-img-top" alt="...">
+  <div id="hotoffer" class="card-body">
+    <h5 class="card-title">Dragon</h5>
+    <p class="card-text">Kill Evil Games</p>
+    <p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+    <a href="#" class="btn btn-primary addtocart">Addtocart</a>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://cdn.pixabay.com/photo/2023/08/15/17/17/ai-generated-8192357_640.png" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Fighting </h5>
+<p class="card-text"> Impossible Mission Games</p>
+<p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://cdn.pixabay.com/photo/2016/03/27/20/57/people-1284253_640.jpg" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Sports</h5>
+<p class="card-text">Soccer World cup Games</p>
+<p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://cdn.pixabay.com/photo/2018/02/27/10/47/race-3185164_640.jpg" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Sports</h5>
+<p class="card-text">Bike Racing Games</p>
+<p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+<a href="#" class="btn btn-dark addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- ==============================features========================= -->
+
+
+<h1 id="features" class="Community">Features</h1>
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://cdn.pixabay.com/photo/2021/07/15/17/20/alien-6469061_640.jpg" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Hurrible</h5>
+<p class="card-text">Zombie Alien Games</p>
+<!-- <p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p> -->
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://cdn.pixabay.com/photo/2017/12/24/21/05/russia-3037635_640.jpg" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Sports</h5>
+<p class="card-text">Soccer</p>
+<!-- <p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p> -->
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://media.istockphoto.com/id/1400627160/photo/two-ethnic-tennis-players-holding-rackets-and-playing-game-on-a-court-serious-focused-team-of.webp?b=1&s=170667a&w=0&k=20&c=Zn6dE7AoeK_1EbguxEhEw9hBZQD493TaIbcI0slwCz8=" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Sports</h5>
+<p class="card-text">Tennis Games</p>
+<!-- <p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p> -->
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://cdn.pixabay.com/photo/2017/07/10/09/47/chess-2489553_640.jpg" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Brain</h5>
+<p class="card-text">Chess</p>
+<!-- <p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p> -->
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://cdn.pixabay.com/photo/2017/04/28/09/47/children-2267971_640.jpg" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Kitchen</h5>
+<p class="card-text">Baking Games</p>
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://cdn.pixabay.com/photo/2015/10/04/11/21/golf-swing-970892_640.jpg" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Golf</h5>
+<p class="card-text">Sports</p>
+<!-- <p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p> -->
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://images.pexels.com/photos/7780086/pexels-photo-7780086.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Kongfu</h5>
+<p class="card-text">Fighter games</p>
+<!-- <p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p> -->
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="topcard col-12 col-md-6">
+  <div data-aos="flip-left">
+<div class="card" style="width: 22rem;">
+<img src="https://media.istockphoto.com/id/1223925552/vector/the-soldier-from-another-battlefield.jpg?s=612x612&w=0&k=20&c=lGwvgCL4xUnQv3oJwNOClrbXrqUKJ844QKXK7uwWFPk=" class="card-img-top" alt="...">
+<div id="hotoffer" class="card-body">
+<h5 class="card-title">Shooting</h5>
+<p class="card-text">Military Games</p>
+<!-- <p class="rating">Rating <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p> -->
+<a href="#" class="btn btn-primary addtocart">Addtocart</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<h1 id="Contact" class="Community">Contact-Us</h1>
+
+
+<div class="footer col-12">
+<input class="emailandname" type="email" placeholder="Email..">
+<input type="text" class="emailandname" placeholder="Name....">
+</div>
+
+
+<div class="searchcontainer col-12">
+<input class="search" type="search" placeholder="Enter your message here...">
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<button class="sendbutton">Send</button>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
